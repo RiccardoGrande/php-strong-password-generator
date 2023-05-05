@@ -38,7 +38,7 @@ if (isset($_GET["password"])) {
         <div class="col">
           <form method="get">
             <!-- <input type="password" name="password" id="password"> -->
-            <input type="number" name="lunghezza" id="lunghezza" min="6" max="20" required>
+            <input type="number" name="password" id="password" min="6" max="20" required>
             <button type="submit">Send</button>
           </form>
         </div>
