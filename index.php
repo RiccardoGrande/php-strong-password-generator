@@ -26,13 +26,15 @@ require __DIR__ . '/function.php';
     </div>
     <div class="row">
         <div class="col">
-          <form method="get">
-            <!-- <input type="password" name="password" id="password"> -->
-            <input type="number" name="password" id="password" min="6" max="20" required>
-            <button type="submit">Send</button>
-          </form>
+            <h4>Generatore di password:</h4>
+
         </div>
-        <div class="col"></div>
+        <div class="col">
+            <form method="get" >
+            <!-- <input type="password" name="password" id="password"> -->
+            <input class="w-20" type="number" name="password" id="password" min="6" max="20" required>
+            <button type="submit">Send</button>
+          </form></div>
     </div>
 
 </body>
